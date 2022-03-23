@@ -1,0 +1,221 @@
+
+@media (min-width: 1200px) and (max-width: 1350px){
+	.header .logo{
+		left: -20px;
+	}
+	.banner_caption .improving_lives{
+		margin-left: -20px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.header .logo{
+		left: -15px;
+		margin-top: 25px;
+	}
+	.header .logo a{
+		width: 120px;
+	}
+	.header .logo .logo_tagline{
+		padding: 10px;
+		font-size: 20px;
+	}
+	.banner_item{
+		padding: 120px 0;
+	}
+	.banner_caption .improving_lives{
+		margin-left: -15px;
+	}
+	.top_menu ul li a{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.main_menu ul li a{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 15px;
+	}
+	.ftr_item h2{
+		font-size: 20px;
+	}
+
+	.src_title, .src_title h2, .src_title span{
+		font-size: 24px;
+	}
+	.serch_desc p{
+		font-size: 18px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){}
+
+@media only screen and (max-width: 991px){
+
+	.navbar-header {
+	    float: none;
+	}
+	.navbar-toggle {
+	    display: block;
+	}
+	.navbar-collapse {
+	    border-top: 1px solid transparent;
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-collapse.collapse {
+	    display: none !important;
+	}
+	.navbar-collapse.collapse.in{
+	    display: block !important;
+	}
+	.navbar-nav {
+	    float: none !important;
+	    margin: 0;
+	}
+	
+	.header{
+		padding: 10px 0 5px;
+	}
+	.header .logo .logo_tagline{
+		display: none;
+	}
+	.header .logo{
+		left: auto;
+		position: absolute;
+		top: 13px;
+		z-index: 9999;
+		margin-bottom: 0;
+	}
+
+	.header_right{
+		width: 100%;
+	}
+
+	.navbar-collapse{
+		padding: 0;
+	}
+
+	.main_menu{
+		padding-bottom: 10px;
+	}
+	.top_menu{
+		padding-top: 10px;
+	}
+
+	.main_menu,
+	.top_menu{
+		display: block;
+		text-align: left;
+	}
+	.main_menu ul li,
+	.top_menu ul li{
+		float: none;
+		display: block;
+	}
+	.main_menu ul li a:before{
+		display: none;
+	}
+
+	.main_menu ul li a,
+	.top_menu ul li a{
+		font-size: 15px;
+		color: #888987;
+		padding: 7px 15px;
+		font-weight: normal;
+	}
+
+	.header .top_cell_number{
+		margin: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 24px;
+	}
+	
+	.banner_item{
+		padding: 100px 0;
+	}
+	.banner_caption .improving_lives{
+		display: block;
+		margin-left: 50px;
+	}
+	.footer_menu ul li a{
+		font-size: 14px;
+	}
+	.footer_social li a{
+		height: 40px;
+		width: 40px;
+	}
+	.footer_menu ul li a:before{
+		top: 16px;
+	}
+	.footer_social li{
+		margin-left: 5px;
+	}
+
+	.serch_desc{
+		padding: 0;
+	}
+	.src_title, .src_title h2, .src_title span{
+		font-size: 24px;
+	}
+	.serch_desc p{
+		font-size: 16px;
+	}
+
+}
+@media only screen and (max-width: 767px){
+	
+	.turn_feature .display_flex{
+		display: block;
+	}
+
+	.footer_social,
+	.footer_menu{
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.banner_item{
+		padding: 120px 0;
+	}
+
+	.control-round .carousel-control.right{
+		right: 10px;
+	}
+	.control-round .carousel-control.left{
+		left: 10px;
+	}
+
+	.src_content .col-sm-6{
+		float: none;
+	}
+
+	.serch_desc,
+	.src_map{
+		position: relative;
+		display: block;
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto 30px;
+	}
+	.serch_desc{
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.banner_item{
+		padding: 100px 0;
+	}
+
+	.header .logo{
+		top: 20px;
+	}
+	.header .logo a{
+		width: 120px;
+	}
+	.header .top_cell_number{
+		font-size: 20px;
+	}
+}
+

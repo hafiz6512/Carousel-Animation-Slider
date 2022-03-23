@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/nexaBold.eot');
+    src: url('../fonts/nexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/nexaBold.woff2') format('woff2'),
+        url('../fonts/nexaBold.woff') format('woff'),
+        url('../fonts/nexaBold.ttf') format('truetype'),
+        url('../fonts/nexaBold.svg#.') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lemonmilkregular';
+    src: url('../fonts/lemonmilk-webfont.eot');
+    src: url('../fonts/lemonmilk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lemonmilk-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-webfont.woff') format('woff'),
+         url('../fonts/lemonmilk-webfont.ttf') format('truetype'),
+         url('../fonts/lemonmilk-webfont.svg#lemonmilkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

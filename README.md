@@ -1,6 +1,8 @@
 # Carousel-Animation-Slider
 Turn with Bootstrap Responsive Carousel Animated slider Template.
 
+### [Live Demo](https://hafiz6512.github.io/Carousel-Animation-Slider)
+
 ## Our Website
 ### [DHC](http://diehardcoder.com)
 

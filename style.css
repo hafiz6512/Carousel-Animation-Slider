@@ -630,3 +630,139 @@ footer{
 	display: block;
 	width: 100%;
 }
+
+
+/** search page **/
+.src_content .col-sm-6{
+	float: right;
+}
+.serch_desc{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	padding: 0 40px 40px;
+	color: #424242;
+}
+.src_title{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.src_title h2{
+	color: #30acb4;
+	margin: 0;
+}
+.src_title,
+.src_title h2,
+.src_title span{
+	font-family: Arial;
+	font-size: 28px;
+	line-height: 1.2;
+	display: block;
+	font-weight: bold;
+}
+.src_title span{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.serch_desc p{
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.src_map{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.src_map iframe{
+	width: 100%;
+	height: 400px;
+}
+.src_map img{
+	display: block;
+	width: 100%;
+}
+.search_bar{
+	text-align: right;
+	float: right;
+	width: 100%;
+}
+.search_bar h2{
+	font-family: 'lemonmilkregular';
+	display: inline-block;
+	vertical-align: middle;
+	padding: 18px 0 15px;
+	text-transform: uppercase;
+	color: #30acb4;
+	font-size: 20px;
+	line-height: 1;
+	font-weight: normal;
+	margin: 0;
+}
+.search_form{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 270px;
+	padding-right: 46px;
+	margin: 15px 0 15px 15px;
+}
+.search_form input.input_s{
+	width: 100%;
+	height: 38px;
+	padding: 10px 10px;
+	font-size: 18px;
+	line-height: 1;
+	color: #000;
+	background: #c2c6be;
+	border: 1px solid #c6cac3;
+	margin: 0;
+}
+.search_form input.input_s:active,
+.search_form input.input_s:focus{
+	border-color: #30acb4;
+}
+.search_form .input_btn{
+	background: #989b96;
+	color: #fff;
+	width: 46px;
+	height: 38px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 38px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.search_form .input_btn:hover{
+	background: #30acb4;
+	border-color: #30acb4;
+}
+
+.search_result{
+
+}
+
+.search_result ol{
+	list-style: none;
+	counter-reset: item;
+	padding: 0;
+	margin: 0;
+}
+.search_result li{
+	font-family: Arial;
+	font-size: 28px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	display: block;
+}
+.search_result li:before {
+    content: counter(item) " ";
+    counter-increment: item;
+    color: #30acb4;
+}
+
+
